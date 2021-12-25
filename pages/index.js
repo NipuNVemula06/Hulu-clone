@@ -1,19 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
+import Header from '../components/Header';
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Hulu 2.0</title>
-      </Head>
+	return (
+		<div>
+			<Head>
+				<title>Hulu 2.0</title>
+			</Head>
 
-      <h1>Lets build Hulu 2.0</h1>
-
-      {/* header */}
-      {/* Navbar */}
-      {/* Results */}
-
-    </div>
-  )
+			{/* header */}
+			<Header />
+			{/* Navbar */}
+			{/* Results */}
+		</div>
+	);
 }
